@@ -1,0 +1,14 @@
+.btn{
+    background-image: linear-gradient(red, yellow);
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover{
+   box-shadow:  2px 4px 10px rgba(0, 0, 0, 0.3);
+    /* TODO: hover effect.  Don't forget transitions in the .btn class */
+}
